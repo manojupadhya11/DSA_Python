@@ -10,7 +10,13 @@ Created on Fri Jul 17 16:54:10 2026
 num1 = int(input("Enter number 1 "))
 num2 = int(input("Enter number 2 "))
 
-if num1 > num2:
+if num1 == num2:
+    print("Both Numbers are Equal")
+elif num1 > num2:
     print(num1,"is greater than ",num2)
 else:
     print(num2,"is the greater than ",num1)
+
+
+#Using ternary operator
+#print((num1 if num1>num2 else num2))
